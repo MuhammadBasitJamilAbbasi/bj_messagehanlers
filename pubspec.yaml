@@ -1,7 +1,9 @@
 name: bj_messagehanlers
-description: "A new Flutter project."
-version: 0.0.1
-homepage:""
+description: "Beautifull & Light weight Package "
+version: 0.0.3
+authors:
+  - "BJ <basitabbasi82@gmail.com>"
+homepage: "https://github.com/MuhammadBasitJamilAbbasi/bj_messagehanlers"
 
 environment:
   sdk: '>=3.3.4 <4.0.0'

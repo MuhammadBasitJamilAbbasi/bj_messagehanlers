@@ -1,11 +1,10 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-class Errorhandler
+class BJErrorhandler
     extends StatelessWidget{
   String url,title,message;
-  Errorhandler({required this.url,required this.title,required this.message});
+  BJErrorhandler({required this.url,required this.title,required this.message});
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -17,7 +16,7 @@ class Errorhandler
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Lottie.asset(url,width: 100,height: 100),
+              Lottie.network(url,width: 100,height: 100),
               Text(title,style: TextStyle(
                 fontSize: 19,
                 fontWeight: FontWeight.bold,
